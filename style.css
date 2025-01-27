@@ -1,0 +1,146 @@
+body{
+    background-image: url('work.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.box{
+    background-color:rgba(94,89,70,0.94);
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.nav{
+    text-align: end;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    
+}
+.nav a{
+    text-decoration: none;
+    text-align: end;    
+    color:#C3C1AB;
+    font-size: 20px;
+}
+.box h2{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline #d1edEa;
+    color: #D09478;
+}
+.box h2:hover{
+    font-size: 50px;
+    font-weight: 600;
+    text-decoration: underline dashed aliceblue;
+    color: aqua;
+}
+.nav a:hover{
+    background-color: #C3C1AB;
+    color: #000000;
+    font-weight: 300;
+}
+.extra{
+    text-align: center;
+    font-size: 25px;
+    #name2:hover{
+        font-size: 34px;
+        text-decoration: dotted underline rgba(6, 196, 13, 0.815);
+    }
+}
+.img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.img{
+    margin-left: 610px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(240, 218, 218, 0.573);
+    margin-right: 650px;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.img img:hover{
+    height: 300px;
+    width: 300px;
+    border-radius: 40%;
+    margin-right: 50px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.img:hover{
+    background-color:rgba(25, 203, 203, 0.176);
+    padding: 15px 350px 15px 200px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+.about{
+    background-color:rgba(21, 159, 164, 0.311);
+    font-size: 20px;
+    margin: 100px 20px 5px 30px;
+    padding: 10px 0 10px 0px;
+    letter-spacing: normal;
+    text-align: center;
+    font-weight: 400;
+}
+.about:hover{
+    font-size: 27px;
+    font-weight: 450;
+}
+.techno:hover{
+    color: darkblue;
+    font-size: 30px;
+}
+.experience{
+    margin-top: 50px;
+    text-align: start;
+    font-size: 25px;
+    font-weight:300;
+    color: black;
+}
+.education{
+    margin-top: 50px;
+    text-align: center;
+}
+table{
+    border-color: whitesmoke;
+    border-radius: 15px;
+    margin-left: 450px;
+    margin-top: 20px;
+    padding: 30px 10px 30px 10px;
+    background-color:  rgba(0, 213, 255, 0.306);
+}
+table:hover{
+    border-color:yellow ;
+    border-radius: 20px;
+}
+.hobbies{
+    font-size: 25px;
+    font-weight: 350;
+    font-family: 'Times New Roman';
+}
+.contact{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: aliceblue ;
+}
+.contact a:hover{
+    text-decoration: underline aliceblue;
+}
+.contact p:hover{
+    color: #d1edEa;
+    font-size: 22px;
+}
+html{
+    scroll-behavior: smooth;
+}
